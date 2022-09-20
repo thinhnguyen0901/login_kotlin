@@ -7,6 +7,10 @@ android {
     namespace 'github.app.login_kotlin'
     compileSdk 32
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "github.app.login_kotlin"
         minSdk 21
